@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+}
+
+.main-container {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 800px;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 100px 32px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: "Young Serif", "san-serif";
+  color: hsl(24, 5%, 18%);
+  font-size: 42px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 18px;
+  color: hsl(30, 10%, 34%);
+}
+
+.pink-area {
+  background-color: hsl(330, 100%, 98%);
+  padding: 25px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 22px;
+  color: hsl(332, 51%, 32%);
+}
+
+.time-list {
+  line-height: 30px;
+  margin-left: 40px;
+  margin-top: 10px;
+  color: hsl(30, 10%, 34%);
+}
+
+.time-list li::marker {
+  font-weight: bold;
+  color: hsl(332, 51%, 32%);
+}
+
+span {
+  font-weight: 700;
+  color: hsl(24, 5%, 18%);
+}
+
+h2 {
+  font-family: "Young Serif", "san-serif";
+
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.ing-list {
+  line-height: 30px;
+  margin-left: 25px;
+}
+
+.Ingredients {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding-bottom: 20px;
+}
+
+.ing-list li {
+  color: hsl(30, 10%, 34%);
+  font-weight: 500;
+}
+
+.ins-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 25px;
+  color: hsl(30, 10%, 34%);
+}
+
+.ins-list li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.Instruction {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding-bottom: 30px;
+}
+
+table {
+  margin-top: 15px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  border-width: 70%;
+}
+
+td {
+  padding: 10px 30px;
+}
+
+ul li::marker {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+
+.tablee {
+  color: hsl(30, 10%, 34%);
+}
+
+.bold {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+@media (max-width: 540px) {
+  .main-container {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .container .image img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    width: 100vh;
+  }
+}
